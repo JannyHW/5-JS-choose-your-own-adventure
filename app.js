@@ -1,7 +1,7 @@
 let playgame = prompt("Hi there! Would you like to play?");
 
 if (playgame === "yes") {
-  var q1 = prompt(
+  let q1 = prompt(
     "You're in the jungle. Do you want to ride a 🐯'tiger' or 🐘'elephant' ?"
   );
   if (q1 === "tiger") {
